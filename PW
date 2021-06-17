@@ -1,4 +1,3 @@
-
 -- Instances:
 
 local ScreenGui = Instance.new("ScreenGui")
@@ -46,7 +45,10 @@ local function AMCDZO_fake_script() -- passw.Script
 
 	script.Parent.Enter.MouseButton1Click:Connect(function()
 		if script.Parent.passb.Text == "ohyeah" then
+game.CoreGui.ScreenGui:Destroy()
+wait(0.4)
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/imiranian/Syx/main/Main", true))()
+
 		else
 			game.Players.LocalPlayer:Kick("LolKeyIsWrong")
 		end
